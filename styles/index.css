@@ -1,0 +1,152 @@
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 120px 50px;
+
+  position: relative;
+}
+
+.person-left h1 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.person-left p {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.person-left p span {
+  color: darkred;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 34px;
+
+  border-radius: 30px;
+  background: #064acb;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transition: 0.25s;
+  transform: translateY(-3px);
+  filter: brightness(1.12);
+}
+
+.socials {
+  margin-top: 35px;
+  display: flex;
+  gap: 15px;
+}
+
+.socials a {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 50%;
+  border: 1px solid #111;
+
+  text-decoration: none;
+  color: #111;
+
+  transition: 0.15s;
+}
+
+.socials a:hover {
+  background-size: 30px;
+  transform: translateY(-2px);
+}
+
+.github {
+  background-image: url(https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png);
+}
+
+.linkedin {
+  background-image: url(https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_linkedin-512.png);
+}
+
+.yt {
+  background-image: url(https://www.pngmart.com/files/23/Black-Youtube-Logo-PNG-HD.png);
+}
+
+.person-right {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 650px) {
+  .person {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .person-left {
+    text-align: center;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+
+  .person-right {
+    margin-top: 50px;
+  }
+}
+
+.profile-circle {
+  width: 320px;
+  height: 320px;
+
+  background: linear-gradient(#ffcf18, #ffad08);
+  background-image: url("../img/avatar.png");
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.msg-btn {
+  position: absolute;
+  bottom: -55px;
+
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+
+  background: #064acb;
+  color: white;
+
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: 0.25s;
+}
+
+.msg-btn:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="logo">
+        <img
+          src="https://yt3.ggpht.com/YWGUakJuDqK6OnbeLqz8sSfG2qtnoc8SlBYhLAt3IIXol3ru-Y4OJm9ko5XPbLAz2kjNwEyE=s88-c-k-c0x00ffffff-no-rj"
+          alt="Logo"
+        />
+        <span style="color: #f3a953">Portfolio</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <nav id="mobileMenu">
+        <ul>
+          <li><a href="../index.html">Dom</a></li>
+          <li><a href="about.html">O mnie</a></li>
+          <li><a href="skills.html">Umiejętności</a></li>
+          <li><a href="projects.html">Projekty</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact">
+      <h2>Skontaktuj się ze mną</h2>
+
+      <form id="contactForm" class="contact-form">
+        <label>E-Mail:</label>
+        <input type="text" id="email" placeholder="Podaj swój adres e-mail" />
+
+        <label>Temat wiadomości:</label>
+        <select id="topic">
+          <option value="">-- wybierz temat --</option>
+          <option value="job">Współpraca / Praca</option>
+          <option value="project">Projekt</option>
+          <option value="other">Inne</option>
+        </select>
+
+        <label>Wiadomość:</label>
+        <textarea
+          id="message"
+          rows="6"
+          placeholder="Napisz wiadomość..."
+        ></textarea>
+
+        <input type="submit" value="Wyślij" class="submit-btn" />
+      </form>
+
+      <p id="formMsg" class="form-info"></p>
+    </main>
+
+    <footer>
+      <p>Radosław Klamka &copy; 2025-2025</p>
+    </footer>
+    <script src="../scripts/form.js"></script>
+    <script src="../scripts/menu.js"></script>
+  </body>
+</html>

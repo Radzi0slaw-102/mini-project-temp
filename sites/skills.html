@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umiejętności</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/skills.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="logo">
+        <img
+          src="https://yt3.ggpht.com/YWGUakJuDqK6OnbeLqz8sSfG2qtnoc8SlBYhLAt3IIXol3ru-Y4OJm9ko5XPbLAz2kjNwEyE=s88-c-k-c0x00ffffff-no-rj"
+          alt="Logo"
+        />
+        <span style="color: #f3a953">Portfolio</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+      <nav id="mobileMenu">
+        <ul>
+          <li><a href="../index.html">Dom</a></li>
+          <li><a href="about.html">O mnie</a></li>
+          <li><a href="skills.html">Umiejętności</a></li>
+          <li><a href="projects.html">Projekty</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="skills-main">
+      <nav class="skills-navbar">
+        <button class="nav-item active" data-category="languages">
+          Języki
+        </button>
+        <button class="nav-item" data-category="frameworks">Frameworki</button>
+        <button class="nav-item" data-category="technologies">
+          Technologie
+        </button>
+        <button class="nav-item" data-category="systems">Systemy</button>
+      </nav>
+
+      <section class="skills-container">
+        <div class="skills-category active" id="languages">
+          <div class="skill-card">
+            <div class="card-header">
+              <div class="card-header">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+                  alt="TypeScript logo"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png"
+                  alt="Javascript logo"
+                />
+              </div>
+              <h3>TypeScript/JavaScript</h3>
+            </div>
+            <hr />
+            <p>
+              Silna znajomość typów, interfejsów i nowoczesnych funkcji TS w
+              projektach webowych. Tworzenie dynamicznych interfejsów,
+              manipulacja DOM oraz obsługa zdarzeń.
+            </p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+                alt="HTML logo"
+              />
+              <h3>HTML</h3>
+            </div>
+            <hr />
+            <p>
+              Strukturalne budowanie stron i semantyczne znaczniki dla lepszej
+              dostępności.
+            </p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/340px-CSS3_logo_and_wordmark.svg.png"
+                alt="CSS logo"
+                style="padding-left: 5px; padding-right: 3px"
+              />
+              <h3>CSS</h3>
+            </div>
+            <hr />
+            <p>
+              Stylowanie responsywnych interfejsów, Flexbox, Grid i animacje
+              CSS.
+            </p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+                alt="SQL logo"
+              />
+              <h3>SQL</h3>
+            </div>
+            <hr />
+            <p>
+              Tworzenie i optymalizacja zapytań oraz projektowanie baz danych.
+            </p>
+          </div>
+        </div>
+        <div class="skills-category" id="frameworks">
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"
+                alt="React logo"
+              />
+              <h3>React.js</h3>
+            </div>
+            <hr />
+            <p>Tworzenie komponentów, stanów i routerów SPA.</p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+                alt="Express logo"
+              />
+              <h3>Express.js</h3>
+            </div>
+            <hr />
+            <p>Tworzenie serwerów i REST API w Node.js.</p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png"
+                alt="Node.js logo"
+              />
+              <h3>Node.js</h3>
+            </div>
+            <hr />
+            <p>
+              Backend w JavaScript, obsługa plików, baz danych i modułów npm.
+            </p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
+                alt="Tailwind logo"
+              />
+              <h3>Tailwind CSS</h3>
+            </div>
+            <hr />
+            <p>
+              Tworzenie nowoczesnych i responsywnych interfejsów z klasami
+              utilitarnymi.
+            </p>
+          </div>
+        </div>
+        <div class="skills-category" id="technologies">
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+                alt="Git logo"
+              />
+              <h3>Git</h3>
+            </div>
+            <hr />
+            <p>
+              Kontrola wersji, gałęzie, mergowanie i rozwiązywanie konfliktów.
+            </p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png"
+                alt="npm logo"
+              />
+              <h3>npm</h3>
+            </div>
+            <hr />
+            <p>Zarządzanie pakietami, skryptami i zależnościami projektów.</p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img src="https://bun.com/logo.svg" alt="Bun logo" />
+              <h3>bun</h3>
+            </div>
+            <hr />
+            <p>
+              Szybkie uruchamianie projektów JavaScript i TypeScript z
+              nowoczesnym runtime.
+            </p>
+          </div>
+        </div>
+        <div class="skills-category" id="systems">
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/2048px-Windows_logo_-_2021.svg.png"
+                alt="Windows logo"
+              />
+              <h3>Windows</h3>
+            </div>
+            <hr />
+            <p>
+              Znajomość systemu, konfiguracja środowisk deweloperskich i
+              administracja.
+            </p>
+          </div>
+          <div class="skill-card">
+            <div class="card-header">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1012px-Tux.svg.png"
+                alt="Linux logo"
+              />
+              <h3>Linux</h3>
+            </div>
+            <hr />
+            <p>
+              Obsługa terminala, skrypty Bash, serwery i pakiety oprogramowania.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Radosław Klamka &copy; 2025-2025</p>
+    </footer>
+    <script src="../scripts/skills.js"></script>
+    <script src="../scripts/menu.js"></script>
+  </body>
+</html>
